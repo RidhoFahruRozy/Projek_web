@@ -1,21 +1,16 @@
-# Projek - Pemrograman web
+# Informatika Hub
 
-repo bersama projek web (Pliss kerjain biar cepet selesai)
+### Deskripsi
 
-## 🚀 Cara Menjalankan Proyek (dengan XAMPP)
+Informatika Hub adalah situs edukasi daring yang menyediakan tutorial dan referensi interaktif untuk berbagai bahasa dan teknologi pemrograman, seperti HTML, CSS, JavaScript, dll. Dengan fitur "Live Editor", pengguna dapat langsung mengedit dan menjalankan kode di browser, memungkinkan pembelajaran yang praktis dan mandiri. Tujuan utamanya adalah membantu siapa saja—baik pemula maupun profesional—untuk memahami konsep pemrograman secara efisien melalui pendekatan yang mudah diakses dan terstruktur. 
 
-### 1. Install XAMPP
+### Alamat Localhost
 
-Jika belum punya, unduh dan instal [XAMPP](https://www.apachefriends.org/index.html).
+http://localhost/projek_web/Inform Hub 1.0
 
-### 2. Aktifkan Apache & MySQL
+### Menu Utama
 
-- Buka **XAMPP Control Panel**
-- Klik **Start** pada **Apache** dan **MySQL**
 
-### 3. Salin Folder Proyek
-
-- Salin folder `projek_web` ke: C:\xampp\htdocs\
 
 ### 4. Import Database ke MySQL
 
