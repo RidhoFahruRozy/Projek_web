@@ -87,7 +87,7 @@ include 'includes/header.php';
                 <div class="card post-card">
                     <div class="card-header bg-white">
                         <div class="post-header">
-                            <img src="<?php echo UPLOAD_URL . $post['profile_image']; ?>" alt="<?php echo $post['username']; ?>" class="post-avatar">
+                            <img src="<?php if (empty($post['profile_image'])) {echo 'assets/img/default.jpg'; } else { echo UPLOAD_URL . $post['profile_image']; } ?>" class="post-avatar">
                             <div>
                                 <h5 class="mb-0"><?php echo $post['title']; ?></h5>
                                 <div class="post-meta">

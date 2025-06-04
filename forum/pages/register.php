@@ -3,7 +3,7 @@
  * Register page
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/forum/config/config.php';
-require_once BASE_PATH . 'includes/user.php';
+require_once '../includes/user.php';
 
 // Check if user is already logged in
 if (isLoggedIn()) {
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 // Include header
-include BASE_PATH . 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <div class="row">
@@ -73,5 +73,5 @@ include BASE_PATH . 'includes/header.php';
 
 <?php
 // Include footer
-include BASE_PATH . 'includes/footer.php';
+include '../includes/footer.php';
 ?>

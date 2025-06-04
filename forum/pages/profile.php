@@ -95,7 +95,7 @@ include '../includes/header.php';
         <div class="card mb-4">
             <div class="card-body">
                 <div class="d-flex flex-column flex-md-row align-items-center">
-                    <img src="<?php echo UPLOAD_URL . $user['profile_image']; ?>" alt="<?php echo $user['username']; ?>" class="profile-avatar">
+                    <img src="<?php echo (!empty($user['profile_image']) ? UPLOAD_URL . $user['profile_image'] : '../assets/img/default.jpg'); ?>" class="profile-avatar">
                     <div class="profile-info">
                         <h2 class="mb-0"><?php echo $user['username']; ?></h2>
                         <p class="text-muted">
